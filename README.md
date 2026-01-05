@@ -4,12 +4,12 @@ Bu proje, “100 derste MVC” eğitimi sonunda, öğrendiklerinizi uygulamaya
 
 ### 🎯 Projenin Amacı  
 - MVC mimarisiyle gerçek‑dünya tarzı bir uygulama geliştirme becerisi kazandırmak.  
-- Ders içerikleri ve proje modülleri ile öğrencilerin öğrendiklerini pekiştirmelerini sağlamak.
+
 
 ### 🌟 Temel Özellikler  
 - Ders modülleri listesi ve detay sayfası: Her ders için içerik, video bağlantısı, örnek proje.  
-- Kullanıcı rolleri:  Eğitmen, Yönetici gibi farklı roller tanımlıdır ve erişim kontrolü vardır.  
-- Yönetici paneli: Ders, içerik, kullanıcı ve proje yönetimi yapılabilir.  
+- Kullanıcı rolleri:  Yazar, Yönetici gibi roller tanımlıdır ve erişim kontrolü vardır.  
+- Yönetici paneli: İçerik, kullanıcı ve proje yönetimi yapılabilir.  
 - Responsive ve modern arayüz: Hem mobilde hem masaüstünde uyumlu, kullanıcı dostu tasarım.  
 - Katmanlı mimari ve iyi yapılandırılmış kod: MVC yapısı + servis katmanı + repository katmanı vb.
 
@@ -42,10 +42,9 @@ Veritabanı yapılandırması şu şekilde özetlenebilir:
   - İlişkiler: Users ↔ Projects (1‑çok), Courses ↔ Projects (1‑çok)
 
 ### 🧱 Modüller / Alt Fonksiyonlar  
-- Kullanıcı Girişi & Kayıt:  Eğitmen, Yönetici rolleriyle kayıt/giriş işlemleri.  
+- Kullanıcı Girişi & Kayıt:  Yazar, Yönetici rolleriyle kayıt/giriş işlemleri.  
 - Ders Listeleme & Detay: Tüm derslerin listelenmesi, detay sayfası gösterimi.  
-- Yönetici Paneli: Ders ekleme/düzenleme, içerik yönetimi, kullanıcı yönetimi.  
-- İlerleme Takibi: Öğrencinin tamamladığı derslerin ve yüklediği projelerin durumlarını izlemesi.  
+- Yönetici Paneli: Makale ekleme/düzenleme, içerik yönetimi, kullanıcı yönetimi.  
 
 ### 📸 Ekran Görüntüleri![SweedAlert](https://github.com/user-attachments/assets/07b8e858-3d6b-4bf7-b303-a8ca4b8e35f9)
 ![Home](https://github.com/user-attachments/assets/402bef72-df30-4d7e-bcb9-9e28ff0a700c)
